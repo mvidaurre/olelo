@@ -16,4 +16,12 @@ group :optional do
 	gem "org-ruby"
 	gem "yajl-ruby"
 	gem "nokogiri"
+	gem "ritex"
+	gem "rack-pygments"
+end
+
+group :test do
+	gem "bacon"
+	gem 'rspec'
+	gem 'rack-test'	
 end
